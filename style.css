@@ -1,0 +1,826 @@
+* {
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+.header ul {
+  display: flex;
+  list-style: none;
+  
+}
+.header ul a {
+    text-decoration: none;
+}
+
+li {
+  margin: 20px 35px;
+}
+#sale {
+  margin-left: 200px;
+  white-space: nowrap;
+}
+#customer{
+  white-space: nowrap;
+}
+#shipping {
+  margin-left: 30px;
+  white-space: nowrap;
+}
+.search ul{
+    display: flex;
+    height: 55%;
+}
+.boxes{
+    width: 32%;
+    margin: 0px;
+    list-style: none;
+    border: 2px solid black;
+    
+}
+.wishlist{
+    margin-left: 27px;
+}
+#second{
+    font-size: 4rem;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#third{
+    padding-top: 54px;
+    padding-left: 66px;
+    width: 25%;
+    
+}
+#third a{
+    text-decoration: none;
+}
+#image{
+    width: 25px;
+    height: 25px;
+    margin-left: 170px;
+    margin-right: 0px;
+    
+    
+}
+#image img{
+  width: 20px;
+  height: 20px;
+}
+#login{
+  margin-left: 0px;
+  white-space: nowrap;
+}
+#comb{
+  background: url('skin.jpg')no-repeat center center/cover;
+   height: 45%;
+}
+.tools ul{
+  display: flex;
+  list-style: none;
+}
+.tools ul a{
+  text-decoration: none;
+ 
+}
+.products 
+{
+  width: 30px;
+  white-space: nowrap;
+  font-size: small;
+}
+#new{
+  padding-left: 20px;
+}
+#fragrance{
+  padding-left: 25px;
+}
+#tools{
+  margin-left: none;
+}
+#hair{
+  padding-left: 35px;
+}
+#body{
+  padding-left: 20px;
+}
+.searchbar ul {
+  list-style: none;
+ padding: none;
+ margin-top: 30px;
+
+}
+.searchbar ul li{
+  width: 80px;
+}
+#text input {
+  border: none;
+  margin: 0px;
+  width:90px;
+  padding:0px;
+  outline: none;
+}
+hr{
+  width:70%;
+  border-top:2px solid black;
+  
+}
+.skincare{
+  padding-left: 90px;
+}
+.blackline{
+  background-color: black;
+  color: white;
+  height: 25px;
+  padding: 10px 26%;
+  white-space: nowrap;
+}
+.beauty{
+  background: url('pexels-photo-4041392.jpeg')no-repeat center center/cover;
+  height: 90%;
+  background-position-y: 40%;
+  margin-top: 0px;
+
+}
+#revive{
+  font-size: 500%;
+  padding-left: 20px;
+  padding-top: 40px;
+  margin-top: 0px;
+}
+#hydration{
+  padding-left: 100px;
+  padding-top: 0;
+  font-size: 150%;
+  font-weight: 550;
+  margin-top: 0px;
+
+}
+#naturalskin{
+  padding-left: 100px;
+  padding-top: 10px;
+  font-size: 120%;
+  font-weight: 400;
+}
+#btn{
+  margin-left: 100px; 
+  margin-top: 20px;
+  width: 15%;
+  background-color: black;
+  color: white;
+  border:2px solid black;
+  height: 40px;
+  font-weight: 600;
+}
+#btn:hover{
+  background-color: rgb(240, 144, 89);
+  border: 2px solid rgb(240, 144, 89) ;
+  color: black;
+  font-weight: 600;
+}
+#circle {
+  height: 44%;
+  list-style: none;
+   margin-top: 0px;
+   display: flex;
+}
+#exclusive{
+  border: 2px solid rgb(231, 138, 154);
+  border-radius: 50%;
+  padding: 0px 13px;
+  padding-top: 23px;
+  margin: 0px;
+  height: 67px;
+  margin-top: 5%;
+  margin-left: 40%;
+  transform: rotate(340deg);
+  background-color: rgb(233, 123, 141);
+  color: black;
+}
+.arrivals{
+  text-align: center;
+  padding-top: 6%;
+  font-size: 3rem;
+  background: url('skin.jpg')no-repeat center center/cover;
+}
+.cream{
+  list-style: none;
+  display: flex;
+}
+.cream li{
+  padding: 0px;
+  margin: 0px;
+}
+#pink a img{
+  width: 130px;
+  background-color: pink;
+}
+#pink{
+  border: 2px solid black;
+  height: 160px;
+}
+#red a img{
+  width: 130px;
+  background-color: pink;
+}
+#red{
+  border: 2px solid black;
+  height: 160px;
+}
+#green a img{
+  width: 130px;
+  background-color: pink;
+
+}
+
+#green{
+  border: 2px solid black;
+  height: 160px;
+  
+
+}
+#blue a img{
+  width: 130px;
+  background-color: pink;
+}
+#blue{
+  border: 2px solid black;
+  height: 160px;
+ 
+}
+#yellow a img{
+  width: 130px;
+  background-color: pink;
+}
+#yellow{
+  border: 2px solid black;
+  height: 160px;
+ 
+}
+
+#purple a img{
+  width: 130px;
+  background-color: pink;
+  
+}
+#purple{
+  border: 2px solid black;
+  height: 160px;
+ 
+}
+.cream{
+  margin: 60px 70px;
+  
+}
+.cream li{
+  margin: 20px;
+}
+
+.lotion{
+  background-color: white;
+}
+.recommended{
+  padding-top: 40px;
+}
+#for{
+  text-align: center;
+   font-size: 3rem;
+}
+.lipstick{
+  list-style: none;
+  border: 2px solid rgb(238, 216, 210);
+  background: rgb(238, 216, 210);
+  margin:  20px;
+
+  
+}
+.lipstick a img{
+  width: 120px;
+}
+#products ul{
+  display: flex;
+}
+#products{
+  margin-left:100px;
+  margin-top: 80px;
+}
+.lipstick  p{
+  border: 2px solid red;
+  background-color: red;
+  width: 40px;
+  margin: 0px;
+  
+  font-size: 20px;
+}
+.lipstick a {
+  text-decoration: none;
+  color: white;
+  
+}
+#mask a img{
+  padding-top: 20px;
+}
+#perfume a img{
+  padding-top: 20px;
+}
+.paisa{
+  display: flex;
+  margin-left: 90px;
+}
+.paisa li{
+  margin: 0px;
+  list-style: none;
+}
+.cash{
+  padding: 5px 10px;
+}
+.cash a{
+  text-decoration: none;
+}
+#night{
+  padding-left: 40px;
+}
+#scrub{
+  padding-left: 60px;
+}
+#powder{
+  padding-left: 80px;
+}
+#lip{
+  padding-left: 60px;
+}
+#face{
+  padding-left: 40px;
+}
+#parfum{
+  padding-left: 50px;
+}
+#fixed{
+  height: 100%;
+  margin-top: 50px;
+}
+.fixed{
+  display: flex;
+  height: 100%;
+  padding: 0px;
+}
+.attached{
+  background-image: url('blueperfume.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 700px 600px ;
+  background-position-x:-3px ;
+  margin: 0px;
+  width: 50%;
+}
+.back{
+  background: url('makeup\ background.jpg')no-repeat center center/cover;
+ 
+  margin: 0px;
+  width: 50%;
+  height: 100%;
+  background-position-x: left;
+}
+#firsttime{
+  padding: 5rem 2rem;
+  padding-bottom: 15px;
+  font-size: medium;
+  font-family: 'Open Sans', sans-serif;
+}
+#off{
+  padding-left:1rem ;
+  font-size: 4rem;
+  line-height: 70px;
+  font-family: 'Open Sans', sans-serif;
+}
+.btn{
+  margin-left: 1rem;
+  width: 9.5rem;
+  height:40px;
+  
+  padding: 10px 20px;
+  border: none ;
+  margin:10px 17px;
+  
+  background-color: rgb(212, 142, 116);
+  color: black;
+}
+.btn a{
+   background-color: black;
+
+ text-decoration: none;
+ font-size: 15px;
+ color: black;
+ font-family: 'Open Sans', sans-serif;
+}
+.btn:hover{
+  color:rgb(212, 142, 116);
+  background-color: black;
+}
+.moving{
+  border: 2px solid black;
+  width: 28rem;
+  height: 18rem;
+  margin-top: 8rem;
+  background-color: black;
+  color: white;
+  font-size: 3rem;
+}
+#on{
+  padding: 30px 30px;
+  padding-bottom: 3px;
+  color: white;
+}
+.department{
+  padding-left: 30px;
+  color: white;
+}
+.promo{
+  padding: 20px 30px;
+  padding-bottom: 3px;
+  font-size: 20px;
+  color: white;
+}
+
+#buttons{
+  margin: 30px 30px;
+  width: 12rem;
+  height: 3rem;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+#negative{
+  border: white;
+  background-color: yellow;
+  width: 70px;
+  margin-top: -50px;
+  border-radius: 100%;
+  height: 4rem;
+  margin-left: 22rem;
+ padding: 2rem 25px;
+  font-size:27px;
+  white-space: nowrap;
+  transform: rotate(330deg);
+}
+#category {
+  text-align: center;
+  padding:6rem ;
+  font-size: 3rem;
+  background: url('skin.jpg')no-repeat center center/cover;
+  padding-bottom: 20px;
+}
+.ovals{
+  display: flex;
+  margin-top: 4rem;
+}
+.ovals a{
+  margin: 0rem 2rem;
+  margin-top: 4rem;
+}
+.mango{
+  border: 1px solid rgb(202, 125, 102);
+  border-radius: 30rem;
+  height: 16rem;
+ 
+}
+.mango img{
+  width: 10rem;
+  padding-top: 2rem;
+}
+#aqua  img{
+  height: 12rem;
+  
+}
+#aqua{
+  margin-left: 4rem;
+}
+
+.ovals .mango:hover{
+  background-color: rgb(243, 183, 165);
+}
+.names{
+  display: flex;
+  font-size: 20px;
+  padding-top:1rem ;
+  font-weight: 100;
+}
+.naam{
+  margin: 0px 80px;
+}
+#naya{
+  margin-left:  140px;
+}
+#auzar{
+  margin-left: 70px;
+}
+#khushboo{
+  margin-left: 60px;
+}
+.pear {
+  display: flex;
+  margin-left: 4rem;
+  margin-top: 5rem;
+}
+.pear a{
+  margin: 0px 2rem;
+}
+.litchi{
+  border: 1px solid rgb(202, 125, 102);
+  border-radius: 30rem;
+  height: 16rem;
+  
+}
+.litchi img{
+  width: 10rem;
+  padding-top: 2rem;
+}
+#bharta img{
+  width:7rem ;
+  padding: 60px 25px;
+}
+#tinde img{
+  width: 8rem;
+  padding: 50px 20px;
+}
+.pear #bharta{
+  background-color: rgb(243, 183, 165) ;
+}
+.pear .litchi:hover{
+  background-color: rgb(243, 183, 165) ;
+}
+.tarif{
+  display: flex;
+  font-size: 20px;
+  padding-top:1rem ;
+  font-weight: 100;
+}
+.noname{
+  margin: 0px 78px;
+}
+#baal{
+  margin-left: 150px;
+}
+#sondarya{
+  margin-left: 90px;
+}
+#offer{
+  margin-left: 40px;
+}
+#sharir{
+  margin-left: 30px;
+}
+.must{
+  background-color: rgb(241, 204, 199);
+  padding-top: 6rem;
+  text-align: center;
+}
+#haves{
+  font-size: 2.5rem;
+}
+.have{
+  display: flex;
+  margin:  4rem 8rem;
+  margin-bottom: 4px;
+}
+.have a{
+  margin: 20px;
+}
+
+.musts{
+  border: 2px solid white;
+  height: 10rem;
+  width: 9rem;
+  background-color: white;
+  padding:2rem 10px ;
+}
+.musts img{
+   width: 9rem;
+   height: 10rem;
+}
+.rokra{
+  display: flex;
+  margin-left: 10rem;
+}
+.rokra a {
+  text-decoration: none;
+  margin: 0px;
+  color: black;
+}
+.lips{
+  margin: 0px;
+}
+#eyes{
+  margin-left: 5rem;
+}
+#hair{
+  margin-left: 2rem;
+}
+#hand{
+  margin-left: 5rem;
+}
+#face{
+  margin-left: 3rem;
+}
+.musts:hover{
+  background-color: rgb(238, 225, 225);
+  border: none;
+}
+.container{
+  background: url('backback.jpg')no-repeat center center/cover;
+  height: 100%;
+}
+.made{
+  margin-left:  32rem;
+  padding-top: 10rem;
+  font-size: 1.5rem;
+}
+.upto{
+  margin-left: 33rem;
+  font-size: 4rem;
+  margin-top: 10px;
+}
+.depar{
+  
+  margin-left:30rem;
+  font-size: 4rem;
+  white-space: nowrap;
+  line-height: 45px;
+}
+.wait{
+  margin:18px 44rem;
+  white-space: nowrap;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.visit{
+  margin:1px 47rem;
+  white-space: nowrap;
+  font-size: 16px;
+}
+#buttoned{
+  margin:  1rem 49rem ;
+  color: white;
+  background-color: black;
+  width: 13rem;
+  height: 3rem;
+  border: none;
+}
+.join{
+  background-color: black;
+  color: white;
+  height: 50%;
+  padding-top: 5rem;
+  
+}
+#beautiful{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+}
+#premium{
+  padding-top: 1rem;
+  color: white;
+}
+.email{
+  padding-top: 3rem;
+  width: 12rem;
+  margin-left: 0px;
+  padding-left: 17.5rem;
+  font-size: 13px;
+  color: white;
+}
+#mail{
+  background-color: black;
+  border: 2px solid white;
+  padding-top: 15px;
+  margin-left: 0px;
+  width: 30rem;
+  height: 3rem;
+  margin-right: 0px;
+}
+.label{
+  display: flex;
+}
+.mall{
+  margin-right: 0px;
+}
+#mail:hover{
+  
+ background-color: rgb(214, 212, 214);
+ color: black;
+ padding: 2px;
+}
+.diva{
+  margin-left: 0px;
+ 
+}
+.botn{
+  margin-left: 0px;
+  border: 2px solid white;
+  width: 10rem;
+  padding-top: 3px;
+  height: 3rem;
+  background-color: black;
+  color: white;
+}
+.botn:hover{
+  
+  background-color: rgb(214, 212, 214);
+  color: black;
+  padding: 2px;
+}
+.flex{
+  display: flex;
+  
+  font-size: 2rem;
+  padding: 60px 20px;
+  padding-bottom: 0px;
+}
+.const{
+  display: flex;
+}
+.const a{
+  text-decoration: none;
+  list-style: none;
+}
+.laal{
+  margin: 0px;
+  margin-left: 10px;
+}
+.kaala{
+  margin: 0px;
+  margin-left: 9rem;
+}
+.narangi{
+  margin: 0px;
+  margin-left: 7.5rem;
+}
+.sona{
+  margin: 0px;
+  margin-left: 4rem;
+}
+#row{
+  width: 40rem;
+}
+.dance{
+  display: flex;
+}
+.moon{
+  width: 4rem;
+  margin: 2rem 0px;
+
+}
+.dance a{
+  margin: 70px; 
+  color: black;
+  list-style: none;
+  white-space: nowrap;
+  font-size: 20px;
+}
+.ship{
+  margin-left: 13rem;
+  height: 10rem;
+}
+.pay{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 25px;
+}
+.abbb{
+  display: flex;
+  list-style: none;
+  margin-left: 26rem;
+}
+.abbb img{
+    width: 60px;
+}
+
+#jcb img{
+  width: 90px;
+}
+.abbb li{
+  margin: 10px;
+ 
+}
+#golegole{
+  margin-top: 1.5rem;
+  margin-left: 7px;
+}#disco{
+  margin-left: 23px;
+}
+.glory {
+  padding-top: 5rem;
+  text-align: center;
+  background: url('images.jpg')no-repeat center center/cover;
+}
+.sakshi{
+  font-size: 5rem;
+}
+.shimon{
+  padding-top: 2rem;
+}
